@@ -1,26 +1,8 @@
-import random
-
-# класс Coin имитирует монету
-# которую надо подбрасывать
-
-
-class Coin:
-    def __init__(self):
-        self.sideup = 'Орел'
-
-    def toss(self):                     # Подбрасывать
-        if random.randint(0, 1) == 0:
-            self.sideup = 'Орел'
-        else:
-            self.sideup = 'Решка'
-
-    def get_sideup(self):
-        return self.sideup
-
+import coin
 
 def main():
     # Создать объект класса Coin
-    my_coin = Coin()
+    my_coin = coin.Coin()
 
     # Показать обращенную вверх сторону монеты
     print('Эта сторона обращена вверх: ', my_coin.get_sideup())
@@ -28,6 +10,9 @@ def main():
     # Подбросит монету
     print('Подбрасываю монету...')
     my_coin.toss()
+
+    # К параметрам объекта имеет доступ кто-угодно
+    my_coin.__sideup = 'Орел'
 
     # Показать обращенную вверх сторону монеты
     print('Эта сторона обращена вверх: ', my_coin.get_sideup())

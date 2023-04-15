@@ -15,7 +15,15 @@ def main():
     saving.deposit(pay)
 
     # Показать остаток.
-    print(f'Ваш остаток на счете составляет: {saving.get_balance(): ,.2f} руб.')
+    print(saving)
+
+    # Выдать деньги со счета пользователя
+    cash = float(input('Какую сумму Вы желаете снять со счета? '))
+    print('Снимаю эту сумму с вашего счета.')
+    saving.withdraw(cash)
+
+    print(saving)
+
 
 
 if __name__ == '__main__':

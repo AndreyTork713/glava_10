@@ -23,5 +23,8 @@ class BankAccount:
     def get_balance(self):
         return self.__balance
 
+    def __str__(self):
+        return f'Ваш остаток на счете составляет: {self.get_balance(): ,.2f} руб.'
+
 
 

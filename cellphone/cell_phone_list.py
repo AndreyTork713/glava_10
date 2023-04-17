@@ -16,13 +16,16 @@ def make_list():
     phone_list = []
 
     for count in range(1, 6):
+        # Получить данные
         print(f'Номер телефона: {count}')
         man = input('Введите производителя телефона: ')
         mod = input('Введите модель телефона: ')
         retail = int(input('Введите розничную цену телефона: '))
         print()
 
+        # Создать объект с полученными данными
         phone = cellphone.Cellphone(man, mod, retail)
+        # Внести объект в список
         phone_list.append(phone)
     return phone_list
 

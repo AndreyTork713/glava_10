@@ -1,4 +1,4 @@
-import coin
+from coin import coin
 
 
 def main():

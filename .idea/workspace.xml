@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e251339a-5c44-4979-b781-3176485160c0" name="Changes" comment="Орел - Решка">
-      <change afterPath="$PROJECT_DIR$/cellphone/cellphone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coin_demo5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankaccaunt/account_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankaccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankaccaunt/bankaccount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coin.py" beforeDir="false" afterPath="$PROJECT_DIR$/coin/coin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coin_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/coin/coin_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coin_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/coin/coin_demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coin_demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/coin/coin_demo5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +46,28 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Python 3.11/Python 3.11 (64-bit).lnk&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.coin_demo5">
+  <component name="RunManager" selected="Python.account_test">
     <configuration name="account_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="glava_10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Andrey\PycharmProjects\Artificial_Intelligence\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.9 (Artificial_Intelligence)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/account_test.py" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="C:\Users\Andrey\PycharmProjects\glava_10\bankaccaunt\account_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +88,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coin_demo1.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Andrey\PycharmProjects\glava_10\coin\coin_demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="coin_demo2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="coin_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="glava_10" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,12 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Work\PycharmProjects\glava_10\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (glava_10)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coin_demo2.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Andrey\PycharmProjects\glava_10\coin\coin_demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coin_demo5.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Andrey\PycharmProjects\glava_10\coin\coin_demo5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.coin_demo5" />
         <item itemvalue="Python.account_test" />
+        <item itemvalue="Python.coin_demo5" />
         <item itemvalue="Python.coin_demo2 (1)" />
         <item itemvalue="Python.coin_demo2" />
         <item itemvalue="Python.coin_demo1" />

@@ -1,4 +1,5 @@
-import coin
+from coin import coin
+
 
 def main():
     # Создать объект класса Coin

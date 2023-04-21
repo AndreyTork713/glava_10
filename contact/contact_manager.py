@@ -1,3 +1,4 @@
+# Эта программа управляет контактами
 import pickle
 import contact
 
@@ -10,5 +11,11 @@ QUIT = 5
 
 FILENAME = 'contacts.dat'
 
+def main():
 
+    # ЗАГРУЗИТЬ СУЩЕСТВУЮЩИЙ СЛОВАРЬ И ПРИСВОИТЬ ЕГО ПЕРЕМЕННОЙ MYCONTACTS
+    mycontacts = load_contacts()
+
+if __name__ == '__main__':
+    main()
 

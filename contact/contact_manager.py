@@ -46,7 +46,22 @@ def get_menu_choice():
     pass
 
 def load_contacts():
-    pass
+    try:
+        # Открыть файл contacts.dat
+        input_file = open('contacts.dat', 'rb')
+
+        # Расконсервировать словарь
+        contact_dct = pickle.load(input_file)
+
+        # Закрыть файл phone_inventory.dat
+        input_file.close()
+
+    except IOError:
+        # При неудаче создать пустой словарь
+        contact_dct = {}
+
+    return contact_dct
+
 
 def look_up():
     pass

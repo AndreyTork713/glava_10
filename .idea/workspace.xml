@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e251339a-5c44-4979-b781-3176485160c0" name="Changes" comment="прописал функцию load_contacts()">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e251339a-5c44-4979-b781-3176485160c0" name="Changes" comment="ДОПИСАЛ функцию get_menu_choice()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact/contact_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact_manager.py" afterDir="false" />
     </list>
@@ -210,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682662023550</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="прописал функцию get_menu_choice()">
+      <created>1682682261425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682682261425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ДОПИСАЛ функцию get_menu_choice()">
+      <created>1682683242114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682683242114</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +243,8 @@
     <MESSAGE value="расконсервация списка телефонов" />
     <MESSAGE value="класс Contact и заготовка программы" />
     <MESSAGE value="прописал функцию load_contacts()" />
-    <option name="LAST_COMMIT_MESSAGE" value="прописал функцию load_contacts()" />
+    <MESSAGE value="прописал функцию get_menu_choice()" />
+    <MESSAGE value="ДОПИСАЛ функцию get_menu_choice()" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДОПИСАЛ функцию get_menu_choice()" />
   </component>
 </project>

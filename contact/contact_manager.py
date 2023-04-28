@@ -82,11 +82,28 @@ def load_contacts():
     return contact_dct
 
 
-def look_up():
-    pass
+def look_up(mycontacts):
+    # Получить искомое имя
+    name = input('Введите имя: ')
+    # Отыскать его в словаре
+    print(mycontacts.get(name, 'Это имя не найдено.'))
 
-def add():
-    pass
+# Функция add() добавляет новую запись в указанный словарь
+def add(mycontacts):
+    # Получить контактную информацию
+    name = input('Введите имя: ')
+    phone = input('Введите номер телефона: ')
+    email = input('Электронный адрес: ')
+
+    # Создать именованную запись с объектом Contact
+    entry = contact.Contact(name, phone, email)
+
+    # Если такого имени в словаре нет создать новую запись в словаре
+    if name not in mycontacts:
+        mycontacts[name] = entry
+        print('Запись добавлена.')
+    else:
+        print('Такая запись уже существует.')
 
 def change():
     pass

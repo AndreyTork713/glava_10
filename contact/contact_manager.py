@@ -58,6 +58,12 @@ def get_menu_choice():
     # Получить выбранный пользователем пункт меню
     choice = int(input('Введите выбранный пункт: '))
 
+    # Проверить выбранный пункт
+    while choice < LOOK_UP or choice > QUIT:
+        choice = int(input('Введите выбранный пункт: '))
+    return choice
+
+
 def load_contacts():
     try:
         # Открыть файл contacts.dat

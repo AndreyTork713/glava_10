@@ -105,8 +105,23 @@ def add(mycontacts):
     else:
         print('Такая запись уже существует.')
 
-def change():
-    pass
+# Функуия изменяет существующую запись в заданном словаре
+def change(mycontacts):
+    # Получить искомое имя
+    name = input('Введите имя: ')
+
+    if name in mycontacts:
+        phone = input('Введите новый номер телефона: ')
+        email = input('Введите новый электронный адрес: ')
+
+        # Создать именованную запись с объектом Contact
+        entry = contact.Contact(name, phone, email)
+
+        # Обновить запись
+        mycontacts[name] = entry
+        print('Информация обновлена.')
+    else:
+        print('Это имя не найдено.')
 
 def delete():
     pass

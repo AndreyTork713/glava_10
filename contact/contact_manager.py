@@ -123,11 +123,27 @@ def change(mycontacts):
     else:
         print('Это имя не найдено.')
 
-def delete():
-    pass
+def delete(mycontacts):
+    # Получить искомое имя
+    name = input('Введите имя: ')
 
-def save_contacts(save_list):
-    pass
+    if name in mycontacts:
+        del mycontacts[name]
+        print('Запись удалена.')
+    else:
+        print('Имя не найдено.')
+
+ # Функция save contacts консервирует указанный
+ # объект и сохраняет его в файле контактов.
+def save_contacts(mycontacts):
+    # Открыть файл для записи
+    output_file = open(FILENAME, 'wb')
+
+    # Законсервировать файл и сохранить его
+    pickle.dump(mycontacts, output_file)
+
+    # Закрыть файл
+    output_file.close()
 
 
 if __name__ == '__main__':
